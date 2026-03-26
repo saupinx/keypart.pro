@@ -92,13 +92,12 @@ html[data-theme="dark"] .brand-logo-dark {
   background-attachment: fixed;
   color: #fff;
 }
-}
 .hero-overlay { position: absolute; inset: 0; background: rgba(30, 30, 30, .56); }
 .hero-grid {
   position: relative; z-index: 1; min-height: 680px; display: grid; grid-template-columns: 1fr 371px; gap: 56px; align-items: center; padding: 48px 0 56px;
 }
 .hero-copy h1 {
-  margin: 0; max-width: 700px; color: #fff; font-size: clamp(58px, 6vw, 78px); line-height: 1.02; letter-spacing: -.02em; font-weight: 800;
+  margin: 0; max-width: 700px; color: #fff; font-size: clamp(46px, 5vw, 64px); line-height: 1.08; letter-spacing: -.02em; font-weight: 600;
 }
 .hero-form {
   background: var(--surface, #fff); border-radius: 38px; padding: 46px 30px 28px; color: var(--text); box-shadow: var(--shadow);
@@ -731,20 +730,22 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
   z-index: 0;
 }
 .hero::before {
-  width: 360px; height: 360px;
+  width: 360px;
+  height: 360px;
   top: 8%;
   left: -80px;
-  background: radial-gradient(circle, rgba(218,30,128,.22), rgba(218,30,128,0) 70%);
+  background: radial-gradient(circle, rgba(55,55,55,.20), rgba(55,55,55,0) 70%);
 }
 .hero::after {
-  width: 440px; height: 440px;
+  width: 440px;
+  height: 440px;
   right: -140px;
   bottom: -120px;
-  background: radial-gradient(circle, rgba(36,45,130,.28), rgba(36,45,130,0) 68%);
+  background: radial-gradient(circle, rgba(45,45,45,.22), rgba(45,45,45,0) 68%);
 }
 .hero-overlay {
   background:
-    linear-gradient(100deg, rgba(10,12,24,.86) 0%, rgba(14,16,30,.72) 42%, rgba(18,18,18,.58) 100%);
+    linear-gradient(100deg, rgba(12,12,12,.82) 0%, rgba(18,18,18,.72) 42%, rgba(24,24,24,.58) 100%);
 }
 .hero-ambient {
   position: absolute;
@@ -752,10 +753,11 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
   z-index: 0;
   pointer-events: none;
 }
+
 .hero-ambient span {
   position: absolute;
   border-radius: 50%;
-  filter: blur(0);
+  filter: blur(8px);
   opacity: .45;
 }
 
@@ -764,14 +766,15 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
   height: 220px;
   top: 10%;
   right: 24%;
-  background: radial-gradient(circle, rgba(55,55,55,.32), rgba(55,55,55,0) 66%);
+  background: radial-gradient(circle, rgba(60,60,60,.22), rgba(60,60,60,0) 66%);
 }
+
 .hero-ambient span:last-child {
   width: 260px;
   height: 260px;
   bottom: 5%;
   left: 10%;
-  background: radial-gradient(circle, rgba(218,30,128,.18), rgba(218,30,128,0) 66%);
+  background: radial-gradient(circle, rgba(48,48,48,.18), rgba(48,48,48,0) 66%);
 }
 .hero-copy h1 {
   text-shadow: 0 8px 30px rgba(0,0,0,.25);
@@ -1943,10 +1946,10 @@ body {
 }
 
 .hero-overlay {
-  z-index: 1 !important;
-  background:
-    linear-gradient(108deg, rgba(118, 118, 118, .42) 0%, rgba(151, 151, 151, .29) 44%, rgba(205, 205, 205, .19) 100%) !important;
-  backdrop-filter: grayscale(.28) brightness(1.06);
+  z-index: 0 !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  background: linear-gradient(108deg, rgba(24, 24, 24, .90) 0%, rgba(38, 38, 38, .64) 44%, rgba(46, 46, 46, 0.5) 100%) !important;
 }
 
 .hero-grid {
@@ -2805,11 +2808,5 @@ html[data-theme="dark"] .site-footer .socials a:focus-visible {
     max-width: 320px !important;
     font-size: clamp(22px, 7vw, 30px) !important;
     line-height: 1.16 !important;
-  }
-}
-@media (max-width: 960px) {
-  .hero,
-  .section-dark-image {
-    background-attachment: scroll !important;
   }
 }
