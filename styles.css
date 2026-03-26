@@ -2722,8 +2722,9 @@ html[data-theme="dark"] .site-footer .socials a:focus-visible {
 /* ===== v12: force hero title into two visual lines on desktop ===== */
 .hero-copy h1 {
   max-width: 860px !important;
-  font-size: clamp(26px, 2.8vw, 40px) !important;
+  font-size: clamp(38px, 3.8vw, 51px) !important;
   line-height: 1.06 !important;
+  font-weight: 900 !important;
 }
 
 .hero-copy h1 .hero-line {
