@@ -17,7 +17,7 @@ const phoneInstances = new Map();
 
 const translations = {
   ru: {
-    metaTitle: 'Key Part Solutions — IT-сопровождение',
+    metaTitle: 'Key Part Solutions',
     metaDescription: 'IT-сопровождение для действующего бизнеса и новых проектов',
     navLabel: 'Основная навигация',
     nav: ['О компании', 'Услуги', 'Тарифы', 'Оборудование', 'Нам доверяют'],
@@ -122,7 +122,7 @@ const translations = {
     }
   },
   en: {
-    metaTitle: 'Key Part Solutions — IT support',
+    metaTitle: 'Key Part Solutions',
     metaDescription: 'IT support for established businesses and new projects',
     navLabel: 'Main navigation',
     nav: ['About', 'Services', 'Pricing', 'Equipment', 'Trusted by'],
