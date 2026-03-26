@@ -744,7 +744,7 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
 }
 .hero-overlay {
   background:
-    linear-gradient(100deg, rgba(15,18,41,.76) 0%, rgba(21,25,56,.58) 42%, rgba(22,24,37,.42) 100%);
+    linear-gradient(100deg, rgba(10,12,24,.86) 0%, rgba(14,16,30,.72) 42%, rgba(18,18,18,.58) 100%);
 }
 .hero-ambient {
   position: absolute;
@@ -755,15 +755,16 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
 .hero-ambient span {
   position: absolute;
   border-radius: 50%;
-  filter: blur(8px);
-  opacity: .7;
+  filter: blur(0);
+  opacity: .45;
 }
+
 .hero-ambient span:first-child {
   width: 220px;
   height: 220px;
   top: 10%;
   right: 24%;
-  background: radial-gradient(circle, rgba(255,255,255,.12), rgba(255,255,255,0) 66%);
+  background: radial-gradient(circle, rgba(55,55,55,.32), rgba(55,55,55,0) 66%);
 }
 .hero-ambient span:last-child {
   width: 260px;
