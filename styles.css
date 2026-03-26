@@ -95,7 +95,7 @@ html[data-theme="dark"] .brand-logo-dark {
   position: relative; z-index: 1; min-height: 680px; display: grid; grid-template-columns: 1fr 371px; gap: 56px; align-items: center; padding: 48px 0 56px;
 }
 .hero-copy h1 {
-  margin: 0; max-width: 700px; color: #fff; font-size: clamp(46px, 5vw, 64px); line-height: 1.08; letter-spacing: -.02em; font-weight: 600;
+  margin: 0; max-width: 700px; color: #fff; font-size: clamp(58px, 6vw, 78px); line-height: 1.02; letter-spacing: -.02em; font-weight: 800;
 }
 .hero-form {
   background: var(--surface, #fff); border-radius: 38px; padding: 46px 30px 28px; color: var(--text); box-shadow: var(--shadow);
