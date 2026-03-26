@@ -32,7 +32,7 @@ const translations = {
     },
     burger: { open: 'Открыть меню', close: 'Закрыть меню' },
     hero: {
-      title: '<span class="hero-line">IT аутсорсинг –</span><span class="hero-line">Ваш бизнес заслуживает</span><span class="hero-line">безупречной IT‑поддержки!</span>',
+     title: '<span class="hero-line">IT аутсорсинг –</span><span class="hero-line">Ваш бизнес заслуживает</span><span class="hero-line">безупречной IT-поддержки!</span>',
       formTitle: 'Оставьте заявку для просчета стоимости обслуживания прямо сейчас!',
       formText: 'Менеджер перезвонит в течение 10 минут',
       name: 'Ваше имя',
