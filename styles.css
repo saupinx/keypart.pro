@@ -2811,3 +2811,28 @@ html[data-theme="dark"] .site-footer .socials a:focus-visible {
     line-height: 1.16 !important;
   }
 }
+@media (max-width: 960px) {
+  .hero,
+  .section-dark-image {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+
+  .hero {
+    background-image:
+      linear-gradient(rgba(34, 34, 34, .12), rgba(34, 34, 34, .18)),
+      url('assets/images/hero-main.jpg') !important;
+  }
+
+  .hero-overlay {
+    background: rgba(20, 20, 20, .22) !important;
+  }
+
+  .section-dark-image {
+    background-image:
+      linear-gradient(rgba(6, 9, 20, .34), rgba(6, 9, 20, .34)),
+      url('assets/images/cta-banner.jpg') !important;
+  }
+}
